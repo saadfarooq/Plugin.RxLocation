@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata minClientVersion="2.8.3">
+		<id>SaadFarooq.Plugin.RxLocation</id>
+		<version>1.0.0</version>
+		<title>RxLocation Plugin for Xamarin and Windows</title>
+		<authors>Saad Faroooq</authors>
+		<owners>Saad Faroooq</owners>
+		<licenseUrl/>
+		<projectUrl/>
+		<!--Default Icon, a template can be found:  https://raw.githubusercontent.com/jamesmontemagno/Xamarin-Templates/master/Plugins-Templates/icons/plugin_icon.png-->  
+		<iconUrl>https://raw.githubusercontent.com/jamesmontemagno/Xamarin-Templates/master/Plugins-Templates/icons/plugin_icon_nuget.png</iconUrl>
+
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>
+         Long description for your plugin.
+		</description>
+		<summary>Short description for your plugin.</summary>
+		<tags>xamarin, pcl, xam.pcl, plugin, plugin for xamarin, windows phone, winphone, wp8, winrt, android, xamarin.forms, ios</tags>
+		<dependencies>
+			<group targetFramework="net">
+			</group>
+			<group targetFramework="win">
+			</group>
+			<group targetFramework="wp">
+			</group>
+			<group targetFramework="wpa">
+			</group>
+			<group targetFramework="MonoAndroid">
+			</group>
+			<group targetFramework="Xamarin.iOS10">
+			</group>
+			<group targetFramework="Xamarin.Mac20">
+			</group>
+			<group targetFramework="portable-net45+win+wpa81+wp80">
+			</group>
+			<group targetFramework="uap">
+			</group>
+			<group targetFramework="dotnet">
+			</group>
+		</dependencies>
+	</metadata>
+	<files>
+		<!--Core-->
+		<file src="RxLocation\Plugin.RxLocation\bin\Release\Plugin.RxLocation.dll" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Plugin.RxLocation.dll" />
+		<file src="RxLocation\Plugin.RxLocation\bin\Release\Plugin.RxLocation.xml" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Plugin.RxLocation.xml" />
+		<file src="RxLocation\Plugin.RxLocation\bin\Release\Plugin.RxLocation.pdb" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Plugin.RxLocation.pdb" />
+		<file src="RxLocation\Plugin.RxLocation.Abstractions\bin\Release\Plugin.RxLocation.Abstractions.dll" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Plugin.RxLocation.Abstractions.dll" />
+		<file src="RxLocation\Plugin.RxLocation.Abstractions\bin\Release\Plugin.RxLocation.Abstractions.xml" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Plugin.RxLocation.Abstractions.xml" />
+		<file src="RxLocation\Plugin.RxLocation.Abstractions\bin\Release\Plugin.RxLocation.Abstractions.pdb" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Plugin.RxLocation.Abstractions.pdb" />		
+		
+		<!--dotnet-->
+		<file src="RxLocation\Plugin.RxLocation\bin\Release\Plugin.RxLocation.dll" target="lib\dotnet\Plugin.RxLocation.dll" />
+		<file src="RxLocation\Plugin.RxLocation\bin\Release\Plugin.RxLocation.xml" target="lib\dotnet\Plugin.RxLocation.xml" />
+		<file src="RxLocation\Plugin.RxLocation\bin\Release\Plugin.RxLocation.pdb" target="lib\dotnet\Plugin.RxLocation.pdb" />
+		<file src="RxLocation\Plugin.RxLocation.Abstractions\bin\Release\Plugin.RxLocation.Abstractions.dll" target="lib\dotnet\Plugin.RxLocation.Abstractions.dll" />
+		<file src="RxLocation\Plugin.RxLocation.Abstractions\bin\Release\Plugin.RxLocation.Abstractions.xml" target="lib\dotnet\Plugin.RxLocation.Abstractions.xml" />
+		<file src="RxLocation\Plugin.RxLocation.Abstractions\bin\Release\Plugin.RxLocation.Abstractions.pdb" target="lib\dotnet\Plugin.RxLocation.Abstractions.pdb" />
+		
+		<!--Win Phone Silverlight-->
+		<file src="RxLocation\Plugin.RxLocation.WindowsPhone8\bin\Release\Plugin.RxLocation.dll" target="lib\wp8\Plugin.RxLocation.dll" />
+		<file src="RxLocation\Plugin.RxLocation.WindowsPhone8\bin\Release\Plugin.RxLocation.xml" target="lib\wp8\Plugin.RxLocation.xml" />
+		<file src="RxLocation\Plugin.RxLocation.WindowsPhone8\bin\Release\Plugin.RxLocation.pdb" target="lib\wp8\Plugin.RxLocation.pdb" />
+		<file src="RxLocation\Plugin.RxLocation.Abstractions\bin\Release\Plugin.RxLocation.Abstractions.dll" target="lib\wp8\Plugin.RxLocation.Abstractions.dll" />
+		<file src="RxLocation\Plugin.RxLocation.Abstractions\bin\Release\Plugin.RxLocation.Abstractions.xml" target="lib\wp8\Plugin.RxLocation.Abstractions.xml" />
+		<file src="RxLocation\Plugin.RxLocation.Abstractions\bin\Release\Plugin.RxLocation.Abstractions.pdb" target="lib\wp8\Plugin.RxLocation.Abstractions.pdb" />
+		
+		<!--Win Phone 81-->
+		<file src="RxLocation\Plugin.RxLocation.WindowsPhone81\bin\Release\Plugin.RxLocation.dll" target="lib\wpa81\Plugin.RxLocation.dll" />
+		<file src="RxLocation\Plugin.RxLocation.WindowsPhone81\bin\Release\Plugin.RxLocation.xml" target="lib\wpa81\Plugin.RxLocation.xml" />
+		<file src="RxLocation\Plugin.RxLocation.WindowsPhone81\bin\Release\Plugin.RxLocation.pdb" target="lib\wpa81\Plugin.RxLocation.pdb" />
+		<file src="RxLocation\Plugin.RxLocation.Abstractions\bin\Release\Plugin.RxLocation.Abstractions.dll" target="lib\wpa81\Plugin.RxLocation.Abstractions.dll" />
+		<file src="RxLocation\Plugin.RxLocation.Abstractions\bin\Release\Plugin.RxLocation.Abstractions.xml" target="lib\wpa81\Plugin.RxLocation.Abstractions.xml" />
+		<file src="RxLocation\Plugin.RxLocation.Abstractions\bin\Release\Plugin.RxLocation.Abstractions.pdb" target="lib\wpa81\Plugin.RxLocation.Abstractions.pdb" />
+		
+		<!--WinStore-->
+		<file src="RxLocation\Plugin.RxLocation.WindowsStore\bin\Release\Plugin.RxLocation.dll" target="lib\win8\Plugin.RxLocation.dll" />
+		<file src="RxLocation\Plugin.RxLocation.WindowsStore\bin\Release\Plugin.RxLocation.xml" target="lib\win8\Plugin.RxLocation.xml" />
+		<file src="RxLocation\Plugin.RxLocation.WindowsStore\bin\Release\Plugin.RxLocation.pdb" target="lib\win8\Plugin.RxLocation.pdb" />
+		<file src="RxLocation\Plugin.RxLocation.Abstractions\bin\Release\Plugin.RxLocation.Abstractions.dll" target="lib\win8\Plugin.RxLocation.Abstractions.dll" />
+		<file src="RxLocation\Plugin.RxLocation.Abstractions\bin\Release\Plugin.RxLocation.Abstractions.xml" target="lib\win8\Plugin.RxLocation.Abstractions.xml" />
+		<file src="RxLocation\Plugin.RxLocation.Abstractions\bin\Release\Plugin.RxLocation.Abstractions.pdb" target="lib\win8\Plugin.RxLocation.Abstractions.pdb" />
+
+		<!--Xamarin.Android-->
+		<file src="RxLocation\Plugin.RxLocation.Android\bin\Release\Plugin.RxLocation.dll" target="lib\MonoAndroid10\Plugin.RxLocation.dll" />
+		<file src="RxLocation\Plugin.RxLocation.Android\bin\Release\Plugin.RxLocation.xml" target="lib\MonoAndroid10\Plugin.RxLocation.xml" />
+		<file src="RxLocation\Plugin.RxLocation.Android\bin\Release\Plugin.RxLocation.pdb" target="lib\MonoAndroid10\Plugin.RxLocation.pdb" />
+		<file src="RxLocation\Plugin.RxLocation.Abstractions\bin\Release\Plugin.RxLocation.Abstractions.dll" target="lib\MonoAndroid10\Plugin.RxLocation.Abstractions.dll" />
+		<file src="RxLocation\Plugin.RxLocation.Abstractions\bin\Release\Plugin.RxLocation.Abstractions.xml" target="lib\MonoAndroid10\Plugin.RxLocation.Abstractions.xml" />
+		<file src="RxLocation\Plugin.RxLocation.Abstractions\bin\Release\Plugin.RxLocation.Abstractions.pdb" target="lib\MonoAndroid10\Plugin.RxLocation.Abstractions.pdb" />
+
+		<!--Xamarin.iOS-->
+		<file src="RxLocation\Plugin.RxLocation.iOS\bin\iPhone\Release\Plugin.RxLocation.dll" target="lib\Xamarin.iOS10\Plugin.RxLocation.dll" />
+		<file src="RxLocation\Plugin.RxLocation.iOS\bin\iPhone\Release\Plugin.RxLocation.xml" target="lib\Xamarin.iOS10\Plugin.RxLocation.xml" />
+		<file src="RxLocation\Plugin.RxLocation.Abstractions\bin\Release\Plugin.RxLocation.Abstractions.dll" target="lib\Xamarin.iOS10\Plugin.RxLocation.Abstractions.dll" />
+		<file src="RxLocation\Plugin.RxLocation.Abstractions\bin\Release\Plugin.RxLocation.Abstractions.xml" target="lib\Xamarin.iOS10\Plugin.RxLocation.Abstractions.xml" />
+
+		<!--uap-->
+		<file src="RxLocation\Plugin.RxLocation.UWP\bin\Release\Plugin.RxLocation.dll" target="lib\UAP10\Plugin.RxLocation.dll" />
+		<file src="RxLocation\Plugin.RxLocation.UWP\bin\Release\Plugin.RxLocation.xml" target="lib\UAP10\Plugin.RxLocation.xml" />
+		<file src="RxLocation\Plugin.RxLocation.UWP\bin\Release\Plugin.RxLocation.pdb" target="lib\UAP10\Plugin.RxLocation.pdb" />
+		<file src="RxLocation\Plugin.RxLocation.Abstractions\bin\Release\Plugin.RxLocation.Abstractions.dll" target="lib\UAP10\Plugin.RxLocation.Abstractions.dll" />
+		<file src="RxLocation\Plugin.RxLocation.Abstractions\bin\Release\Plugin.RxLocation.Abstractions.xml" target="lib\UAP10\Plugin.RxLocation.Abstractions.xml" />
+		<file src="RxLocation\Plugin.RxLocation.Abstractions\bin\Release\Plugin.RxLocation.Abstractions.pdb" target="lib\UAP10\Plugin.RxLocation.Abstractions.pdb" />
+		
+		<!--Xamarin.Mac
+		<file src="RxLocation\Plugin.RxLocation.Mac\bin\iPhone\Release\Plugin.RxLocation.dll" target="lib\Xamarin.Mac20\Plugin.RxLocation.dll" />
+		<file src="RxLocation\Plugin.RxLocation.Mac\bin\iPhone\Release\Plugin.RxLocation.xml" target="lib\Xamarin.Mac20\Plugin.RxLocation.xml" />
+		<file src="RxLocation\Plugin.RxLocation.Abstractions\bin\Release\Plugin.RxLocation.Abstractions.dll" target="lib\Xamarin.Mac20\Plugin.RxLocation.Abstractions.dll" />
+		<file src="RxLocation\Plugin.RxLocation.Abstractions\bin\Release\Plugin.RxLocation.Abstractions.xml" target="lib\Xamarin.Mac20\Plugin.RxLocation.Abstractions.xml" />
+        -->
+	</files>
+</package>
